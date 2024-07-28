@@ -5,7 +5,8 @@ import (
 	"log"
 )
 
-const myKey = "7374140831:AAGsgR-bpIzy-2okzrB_My_LI-JKI9Iy-EI"
+// здесь нужно подставить свой тг токен
+const myKey = "123"
 
 var tgCommand = tgbotapi.NewSetMyCommands(
 	tgbotapi.BotCommand{
